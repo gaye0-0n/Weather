@@ -1,0 +1,37 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../images/weather.jpeg);
+  background-repeat: no-repeat;
+  background-color: gray;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.container{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 16%;
+}
+
+.container h2{
+  color: white;
+}
+.container #wth-form input{
+  height: 30px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+.container #wth-form #wth{
+  height: 37px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+}
+
+h1, p{
+  color: white;
+}
