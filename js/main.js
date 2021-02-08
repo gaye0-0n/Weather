@@ -89,7 +89,7 @@ $(document).ready(function(){
         const city = this.city.value
         
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/weather",
+            url: "https://api.openweathermap.org/data/2.5/weather",
             type: "get",
             data: {
                 q: city,
@@ -113,8 +113,4 @@ $(document).ready(function(){
         })
         
     })
-    
-    
-    
-    
 });
